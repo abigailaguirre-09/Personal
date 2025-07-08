@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abigail Aguirre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+      font-size: 2.8em;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abigail Aguirre</h1>
+    <p>Creative. Driven. Curious.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Abigail Aguirre, a passionate and driven individual with a love for learning, design, and storytelling. Whether it’s through visual design, words, or ideas, I believe in creating meaningful work that connects and inspires.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Coming soon! Stay tuned for updates on recent projects and case studies.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+    Or find me on <a href="https://linkedin.com" target="_blank">LinkedIn</a> or <a href="https://instagram.com" target="_blank">Instagram</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abigail Aguirre. All rights reserved.</p>
+  </footer>
+</body>
+</html>
